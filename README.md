@@ -98,15 +98,8 @@ repository_root/
 └── README.md
 ```
 
-ご連絡ありがとうございます。情報が明確になりました。
 
-e-Statで提供されている「**境界データ**（メッシュの形状）」と「**統計データ**（メッシュ内の人口など）」が、それぞれ「Standard Regional Mesh Data」と「Population Data」に対応するということですね。
-
-その情報を反映して、READMEの該当箇所をより正確に修正します。
-
----
-
-### Data Sources and Placement Instructions (修正版)
+### Data Sources and Placement Instructions 
 
 1.  **Agricultural Settlements Data (農業集落データ)**
     * **Source:** Ministry of Agriculture, Forestry and Fisheries, Japan (農林水産省) - [e.g., Agricultural Census](https://www.maff.go.jp/j/tokei/)
@@ -128,9 +121,8 @@ e-Statで提供されている「**境界データ**（メッシュの形状）�
     * **Source:** Statistics Bureau of Japan (e-Stat) - [Portal Site of Official Statistics of Japan](https://www.e-stat.go.jp/gis/statmap-search?type=1)
     * **Instructions:** Download the corresponding **statistical data** for the mesh (e.g., 2020 Population Census). Unzip if necessary, and place the relevant files/folders (e.g., `tblT001140S5339`) into the `data/population/` directory.
 
------
 
-## 3\. Usage: Running the Analysis
+## 3. Usage: Running the Analysis
 
 The core analysis is contained within the Jupyter Notebooks located in the `notebooks/` directory.
 
@@ -141,7 +133,7 @@ It is recommended to run the notebooks in the following order: prepare_data.ipyn
 
 -----
 
-## 4\. Citation
+## 4. Citation
 
 This research is currently being prepared for submission to a peer-reviewed journal. If you wish to use or reference this work before publication, please cite this repository directly or contact the corresponding author.
 
@@ -149,7 +141,7 @@ A formal citation and BibTeX entry will be provided here upon acceptance of the 
 
 -----
 
-## 5\. License
+## 5. License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**. See the `LICENSE` file for details.
 
