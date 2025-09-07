@@ -4,28 +4,6 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-
-## 1. Setup and Installation
-
-### 1.1. Clone Repository
-
-```bash
-git clone git@github.com:h-takahashi-lab/drone_risk_profit_tradeoff.git
-cd drone_risk_profit_tradeoff
-```
-
-# Balancing Profitability and Resilience to Earthquake-Induced Isolation: A Multi-Objective Optimization for Drone Depot Location
-
-**Authors:** Yusuke Takahashi, Hiroki Takahashi
-
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-
-
-## Abstract
-
-Drone delivery networks possess a unique dual-use potential, enhancing commercial profitability during normal operations while providing critical logistics support for disaster resilience. While existing models often address these objectives separately or rely on abstract risk metrics, this study develops a multi-objective optimization model to strategically locate drone depots that explicitly accounts for the risk of community isolation following earthquakes. Our mixed-integer linear programming model quantifies the resilience objective by integrating a physics-based risk assessment that connects seismic shaking and topography to landslide probability and road failure, ultimately estimating community isolation risk. Applying the model to a case study in Japan, we derive a Pareto frontier demonstrating that a significant reduction in expected isolated population is achievable with only a minor sacrifice in profit. Furthermore, our sensitivity analysis reveals that increasing the number of depots qualitatively shifts the optimal deployment strategy from a general compromise to a specialized approach, balancing profit-focused and resilience-focused depots. This framework provides a quantitative tool for public and private decision-makers to design economically viable and socially robust dual-use logistics networks.
-
-
 ## 1. Setup and Installation
 
 ### 1.1. Clone Repository
