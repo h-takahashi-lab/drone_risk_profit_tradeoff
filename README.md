@@ -12,21 +12,19 @@
 ```bash
 git clone git@github.com:h-takahashi-lab/drone_risk_profit_tradeoff.git
 cd drone_risk_profit_tradeoff
+```
 
-````markdown
 # Balancing Profitability and Resilience to Earthquake-Induced Isolation: A Multi-Objective Optimization for Drone Depot Location
 
 **Authors:** Yusuke Takahashi, Hiroki Takahashi
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
----
 
 ## Abstract
 
 Drone delivery networks possess a unique dual-use potential, enhancing commercial profitability during normal operations while providing critical logistics support for disaster resilience. While existing models often address these objectives separately or rely on abstract risk metrics, this study develops a multi-objective optimization model to strategically locate drone depots that explicitly accounts for the risk of community isolation following earthquakes. Our mixed-integer linear programming model quantifies the resilience objective by integrating a physics-based risk assessment that connects seismic shaking and topography to landslide probability and road failure, ultimately estimating community isolation risk. Applying the model to a case study in Japan, we derive a Pareto frontier demonstrating that a significant reduction in expected isolated population is achievable with only a minor sacrifice in profit. Furthermore, our sensitivity analysis reveals that increasing the number of depots qualitatively shifts the optimal deployment strategy from a general compromise to a specialized approach, balancing profit-focused and resilience-focused depots. This framework provides a quantitative tool for public and private decision-makers to design economically viable and socially robust dual-use logistics networks.
 
----
 
 ## 1. Setup and Installation
 
@@ -35,7 +33,7 @@ Drone delivery networks possess a unique dual-use potential, enhancing commercia
 ```bash
 git clone git@github.com:h-takahashi-lab/drone_risk_profit_tradeoff.git
 cd drone_risk_profit_tradeoff
-````
+```
 
 ### 1.2. Install Dependencies
 
@@ -49,8 +47,6 @@ source venv/bin/activate
 # Install required packages
 pip install -r requirements.txt
 ```
-
------
 
 ## 2. Data Preparation
 
@@ -131,7 +127,6 @@ It is recommended to run the notebooks in the following order: prepare_data.ipyn
 
 **Note on Language:** Please be aware that the comments and markdown text within the Jupyter Notebooks (`.ipynb` files) currently contain explanations primarily in Japanese. We plan to translate these in a future commit to improve accessibility for English-speaking users.
 
------
 
 ## 4. Citation
 
@@ -139,7 +134,7 @@ This research is currently being prepared for submission to a peer-reviewed jour
 
 A formal citation and BibTeX entry will be provided here upon acceptance of the paper.
 
------
+
 
 ## 5. License
 
@@ -147,5 +142,3 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 
 You are free to share and adapt this material for non-commercial purposes, provided you give appropriate credit.
 
-```
-```
