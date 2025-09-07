@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Prepare Data",
+      "program": "${workspaceFolder}/src/01_prepare_data.py"
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Run Optimization",
+      "program": "${workspaceFolder}/src/02_run_optimization.py"
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Visualize Results",
+      "program": "${workspaceFolder}/src/03_visualize_results.py"
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Run Sensitivity Analysis",
+      "program": "${workspaceFolder}/src/04_run_sensitivity_analysis.py"
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Visualize Sensitivity",
+      "program": "${workspaceFolder}/src/05_visualize_sensitivity.py"
+    },
+    {
+        "name": "Python: リモートアタッチ",
+        "type": "debugpy",
+        "request": "attach",
+        "connect": {
+            "host": "localhost",
+            "port": 5678
+        }
+    }
+  ]
+}
